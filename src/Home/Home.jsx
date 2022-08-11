@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 
 
-export default function Home()
+export default function Home(props)
 {
   const [trendingMovies, setTrendingMovies] = useState([])
   const [trendingTv, setTrendingTv] = useState([])
@@ -33,8 +33,11 @@ export default function Home()
 
   return (
     <>
-
-      <div className="row p-5">
+      {props.userData === null ? <div>
+        <h1 className='text-center text-bolder text-danger'> Hello to our websit</h1>
+        </div>: <div>
+    
+    <div className="row p-5">
         <div className="col-md-4 ">
           <div className="brdr mb-4 w-25"></div>
           <h3 className="">
@@ -95,7 +98,6 @@ export default function Home()
       </div>
 
       {/* persons */}
-
       <div className="row p-5">
         <div className="col-md-4 ">
           <div className="brdr mb-4 w-25"></div>
@@ -121,6 +123,9 @@ export default function Home()
           </div>
         ))}
       </div>
+    </div>
+}
+      
     </>
   )
 }

@@ -14,6 +14,8 @@ import { useEffect, useState } from 'react'
 import MovieDetails from './Movies/MovieDetails.jsx'
 import TvDetails from './TV/TvDetails.jsx';
 import Footer from './Footer.jsx';
+import  BeforeLogin  from './BeforeLogin.jsx';
+
 
 
 function App()
@@ -66,8 +68,12 @@ function App()
         
       <div className="container mh " >
         <Routes>
-          <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute> } />
-          <Route path="home" element={<ProtectedRoute><Home /></ProtectedRoute> } />
+          {userData === null ? <Route path='/' element={<BeforeLogin />} /> : <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>} />}
+          {userData === null ? <Route path='home' element={<BeforeLogin/>} /> : <Route path="home" element={<ProtectedRoute><Home /></ProtectedRoute> } />}
+
+
+          {/* <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute> } />*/}
+          {/* <Route path="home" element={<ProtectedRoute> <Home  userData={userData} /> </ProtectedRoute>} />  */}
 
           <Route path="movies" element={<ProtectedRoute><Movies /></ProtectedRoute>} />
           
