@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TopMovies-Using-react/static/css/main.0b18124b.css",
+    "main.js": "/TopMovies-Using-react/static/js/main.b84e52ed.js",
+    "static/js/787.54409d27.chunk.js": "/TopMovies-Using-react/static/js/787.54409d27.chunk.js",
+    "static/media/fa-solid-900.ttf": "/TopMovies-Using-react/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
+    "static/media/fa-brands-400.ttf": "/TopMovies-Using-react/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
+    "static/media/fa-solid-900.woff2": "/TopMovies-Using-react/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
+    "static/media/ezz.png": "/TopMovies-Using-react/static/media/ezz.64e3f1c45027a68b16a5.png",
+    "static/media/fa-brands-400.woff2": "/TopMovies-Using-react/static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
+    "static/media/fa-regular-400.ttf": "/TopMovies-Using-react/static/media/fa-regular-400.0d03b1bbd1d62c1e1284.ttf",
+    "static/media/fa-regular-400.woff2": "/TopMovies-Using-react/static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
+    "static/media/fa-v4compatibility.ttf": "/TopMovies-Using-react/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
+    "static/media/fa-v4compatibility.woff2": "/TopMovies-Using-react/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
+    "index.html": "/TopMovies-Using-react/index.html",
+    "main.0b18124b.css.map": "/TopMovies-Using-react/static/css/main.0b18124b.css.map",
+    "main.b84e52ed.js.map": "/TopMovies-Using-react/static/js/main.b84e52ed.js.map",
+    "787.54409d27.chunk.js.map": "/TopMovies-Using-react/static/js/787.54409d27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b18124b.css",
+    "static/js/main.b84e52ed.js"
+  ]
+}
